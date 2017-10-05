@@ -1,0 +1,8 @@
+﻿
+namespace Projects.Entities
+{
+    public interface IEntity
+    {
+        int Id { get; set; }
+    }
+}

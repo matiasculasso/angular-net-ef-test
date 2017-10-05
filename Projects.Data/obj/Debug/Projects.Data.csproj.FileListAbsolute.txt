@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\santex\Projects\Projects.Data\bin\Debug\Projects.Data.dll.config
+C:\Users\HP\Desktop\santex\Projects\Projects.Data\bin\Debug\Projects.Data.dll
+C:\Users\HP\Desktop\santex\Projects\Projects.Data\bin\Debug\Projects.Data.pdb
+C:\Users\HP\Desktop\santex\Projects\Projects.Data\bin\Debug\EntityFramework.dll
+C:\Users\HP\Desktop\santex\Projects\Projects.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\santex\Projects\Projects.Data\bin\Debug\Projects.Entities.dll
+C:\Users\HP\Desktop\santex\Projects\Projects.Data\bin\Debug\Projects.Entities.pdb
+C:\Users\HP\Desktop\santex\Projects\Projects.Data\bin\Debug\Projects.Entities.dll.config
+C:\Users\HP\Desktop\santex\Projects\Projects.Data\bin\Debug\EntityFramework.xml
+C:\Users\HP\Desktop\santex\Projects\Projects.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\santex\Projects\Projects.Data\obj\Debug\Projects.Data.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\santex\Projects\Projects.Data\obj\Debug\Project.Entities.Migrations.addcommnetstotasks.resources
+C:\Users\HP\Desktop\santex\Projects\Projects.Data\obj\Debug\Projects.Data.csproj.GenerateResource.Cache
+C:\Users\HP\Desktop\santex\Projects\Projects.Data\obj\Debug\Projects.Data.dll
+C:\Users\HP\Desktop\santex\Projects\Projects.Data\obj\Debug\Projects.Data.pdb

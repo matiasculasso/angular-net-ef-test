@@ -1,0 +1,10 @@
+C:\Users\HP\Desktop\santex\Projects\Project.Entities\bin\Debug\Project.Entities.dll.config
+C:\Users\HP\Desktop\santex\Projects\Project.Entities\bin\Debug\Project.Entities.dll
+C:\Users\HP\Desktop\santex\Projects\Project.Entities\bin\Debug\Project.Entities.pdb
+C:\Users\HP\Desktop\santex\Projects\Project.Entities\obj\Debug\Project.Entities.dll
+C:\Users\HP\Desktop\santex\Projects\Project.Entities\obj\Debug\Project.Entities.pdb
+C:\Users\HP\Desktop\santex\Projects\Projects.Entities\bin\Debug\Projects.Entities.dll.config
+C:\Users\HP\Desktop\santex\Projects\Projects.Entities\bin\Debug\Projects.Entities.dll
+C:\Users\HP\Desktop\santex\Projects\Projects.Entities\bin\Debug\Projects.Entities.pdb
+C:\Users\HP\Desktop\santex\Projects\Projects.Entities\obj\Debug\Projects.Entities.dll
+C:\Users\HP\Desktop\santex\Projects\Projects.Entities\obj\Debug\Projects.Entities.pdb

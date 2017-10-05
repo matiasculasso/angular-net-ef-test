@@ -1,0 +1,35 @@
+﻿<div class='panel panel-primary'>
+    <div class='panel-heading'>
+        Project Management
+    </div>
+    <div class='panel-body'>
+        <form novalidate (ngSubmit)="onSubmit(projectFrm)" [formGroup]="projectFrm">
+            <div class="form-group">
+                <div>
+                    <span>ID</span>
+                    <input type="text" class="form-control" readonly="readonly" formControlName="Id">
+                </div>
+                <div>
+                    <span>Name</span>
+                    <input type="text" class="form-control" placeholder="Name" formControlName="Name">
+                </div>
+                <div>
+                    <span>Description</span>
+                    <input type="text" class="form-control" placeholder="Project description" formControlName="Description">
+                </div>
+                <div>
+                    <span>Start Date</span>
+                    <input type="date" class="form-control" formControlName="StartDate">
+                </div>
+                <div>
+                    <span>End Date</span>
+                    <input type="date" class="form-control" formControlName="EndDate">
+                </div>
+            </div>
+            <div>
+                <a class="btn btn-default" [routerLink]="['/projects']">Cancel</a>
+                <button *ngIf="!viewMode" type="submit" [disabled]="projectFrm.invalid" class="btn btn-primary">Save</button>
+            </div>
+        </form>
+    </div>
+</div>

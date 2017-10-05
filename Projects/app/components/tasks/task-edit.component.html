@@ -1,0 +1,39 @@
+﻿<div class='panel panel-primary'>
+    <div class='panel-heading'>
+        Task Management
+    </div>
+    <div class='panel-body'>
+        <form novalidate (ngSubmit)="onSubmit(taskFrm)" [formGroup]="taskFrm">
+            <div class="form-group">
+                <div>
+                    <span>ID</span>
+                    <input type="text" class="form-control" readonly="readonly" formControlName="Id">
+                </div>
+                <div>
+                    <span>Title</span>
+                    <input type="text" class="form-control" placeholder="Name" formControlName="Title">
+                </div>
+                <div>
+                    <span>Description</span>
+                    <input type="text" class="form-control" placeholder="task description" formControlName="Description">
+                </div>
+                <div>
+                    <span>Start Date</span>
+                    <input type="date" class="form-control" formControlName="StartDate">
+                </div>
+                <div>
+                    <span>End Date</span>
+                    <input type="date" class="form-control" formControlName="EndDate">
+                </div>
+                <div>
+                    <span>Assigned User</span>
+                    <input type="text" class="form-control" placeholder="Name" formControlName="AssignedUser">
+                </div>
+            </div>
+            <div>
+                <a class="btn btn-default" [routerLink]="['/tasks']">Cancel</a>
+                <button *ngIf="!viewMode" type="submit" [disabled]="taskFrm.invalid" class="btn btn-primary">Save</button>
+            </div>
+        </form>
+    </div>
+</div>

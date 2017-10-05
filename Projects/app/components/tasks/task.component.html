@@ -1,0 +1,48 @@
+﻿<div class='panel panel-primary'>
+    <div class='panel-heading'>
+        Tasks Management
+    </div>
+    <div class='panel-body'>
+        <div class='table-responsive'>
+            <div style="padding-bottom:10px"><a class="btn btn-success" [routerLink]="['new']">Add</a></div>
+            <div class="alert alert-info" role="alert" *ngIf="indLoading">Loading tasks...</div>
+            <div *ngIf='users && users.length==0' class="alert alert-info" role="alert">No record found!</div>
+            <table class='table table-striped' *ngIf='tasks && tasks.length'>
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Creator</th>
+                    <th>Assigned</th>                 
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>                
+                    <tr *ngFor="let t of tasks">
+                        <td>{{t.Title}}</td>
+                        <td>{{t.Description}}</td>
+                        <td>{{t.StartDate}}</td>
+                        <td>{{t.EndDate}}</td>
+                        <td>{{t.Creator.Name}}</td>
+                        <td>{{t.AssignedUser.Name}}</td>
+                        <td>
+                            <a [routerLink]="['/tasks', t.Id, 'view', true]" class="btn btn-default">View</a>
+                            <a [routerLink]="['/tasks', t.Id, 'edit']" class="btn btn-primary">Edit</a>
+                            <a class="btn btn-danger" (click)="onDelete(t.Id)">Delete</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+            </div>
+        </div>
+        <div *ngIf="msg" role="alert" class="alert alert-info alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+            <span class="sr-only">Error:</span>
+            {{msg}}
+        </div>
+    </div>
+</div>
